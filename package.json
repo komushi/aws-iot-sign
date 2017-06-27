@@ -1,0 +1,16 @@
+{
+  "name": "aws-iot-sign",
+  "version": "1.0.0",
+  "description": "aws iot service signature",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify ./src/index.js -o ./lib/aws-iot-sign.js -s AWSIoTSign"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-signature-v4": "^1.1.0",
+    "crypto": "0.0.3"
+  }
+}
