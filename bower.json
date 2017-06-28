@@ -1,0 +1,27 @@
+{
+  "name": "aws-iot-sign",
+  "version": "0.0.1",
+  "description": "aws iot service signature",
+  "main": "lib/aws-iot-sign.js",
+  "authors": [
+    "Lei Xu <komushi@gmail.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "aws",
+    "iot",
+    "mqtt",
+    "client",
+    "paho",
+    "stream",
+    "websocket"
+  ],
+  "homepage": "https://github.com/komushi/aws-iot-sign",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
